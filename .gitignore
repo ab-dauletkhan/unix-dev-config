@@ -1,5 +1,13 @@
+# Ignore everything
 *
 
+# Do not ignore the .gitignore file itself
 !.gitignore
+
+# Allow the README (optional)
 !README.md
-!nvim
+
+# Unignore the entire nvim directory and its contents
+!nvim/
+!nvim/**
+
